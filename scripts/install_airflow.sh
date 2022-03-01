@@ -1,5 +1,7 @@
-export AIRFLOW_HOME=~/airflow
+#!/bin/bash
+set -e
 
+export AIRFLOW_HOME=~/airflow
 # Install Airflow using the constraints file
 AIRFLOW_VERSION=2.2.4
 PYTHON_VERSION="$(python --version | cut -d " " -f 2 | cut -d "." -f 1-2)"
