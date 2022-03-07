@@ -1,6 +1,6 @@
 FROM corise/dbt-course-gitpod
 
-ENV INVALIDATE_CACHE=23
+ENV INVALIDATE_CACHE=1
 
 COPY scripts/install_R.sh install_R.sh
 COPY scripts/install_airflow.sh install_airflow.sh
